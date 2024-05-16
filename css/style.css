@@ -132,15 +132,15 @@ img {
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
     .container {
-        max-width: 768px;
+        max-width: 100%;
     }
 
     .container h2 {
-        max-width: 768px;
+        max-width: 100%;
     }
 
     .title {
-        max-width: 768px;
+        max-width: 100%;
     }
 
     .row {
@@ -158,22 +158,17 @@ img {
 /* versione mobile */
 @media screen and (max-width: 480px) {
     body {
-        max-width: 480px;
+        max-width: 100%;
     }
 
     .container {
-        max-width: 480px;
+        max-width: 100%;
     }
 
     .container h2 {
-        max-width: 480px;
+        max-width: 100%;
     }
     
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .row {
         display: flex;
         flex-wrap: wrap;
